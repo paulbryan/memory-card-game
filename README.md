@@ -1,16 +1,57 @@
-# React + Vite
+# Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic memory matching game built with React and Vite. Flip cards to find matching pairs before you run out of guesses!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Three Difficulty Levels**:
+  - Easy: 6 pairs with 15 guesses
+  - Medium: 8 pairs with 20 guesses
+  - Hard: 10 pairs with 25 guesses
 
-## React Compiler
+- **Smooth Animations**: Card flip animations and match celebrations
+- **Responsive Design**: Works on desktop and mobile devices
+- **Visual Feedback**: Matched cards turn green, unmatched cards flip back
+- **Game Statistics**: Track your difficulty, remaining guesses, and matches
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Install Dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## How to Play
+
+1. Select a difficulty level to start the game
+2. Click on any card to flip it and reveal the symbol
+3. Click on a second card to try to find a match
+4. If the cards match, they stay flipped and turn green
+5. If they don't match, they flip back and you lose a guess
+6. Match all pairs before running out of guesses to win!
+
+## Technologies Used
+
+- React 19
+- Vite 7
+- CSS3 with animations
+- ESLint for code quality
