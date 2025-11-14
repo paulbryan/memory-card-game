@@ -2,6 +2,20 @@
 
 A classic memory matching game built with React and Vite. Flip cards to find matching pairs before you run out of guesses!
 
+## Screenshots
+
+### Difficulty Selection
+![Difficulty Selection](https://github.com/user-attachments/assets/888efe3a-5b0b-49f3-99a3-b0cfbbb076bb)
+
+### Game Start
+![Game Start](https://github.com/user-attachments/assets/6aa62dbf-3cfa-42e8-859e-9733e9fa2ca0)
+
+### Gameplay with Matched Cards
+![Gameplay with Match](https://github.com/user-attachments/assets/45c4a5d5-dd54-4575-8f62-e2a88d44931a)
+
+### Winning State
+![Game Won](https://github.com/user-attachments/assets/583533de-eb51-4c01-b2af-9fe3ea1f9f64)
+
 ## Features
 
 - **Three Difficulty Levels**:
